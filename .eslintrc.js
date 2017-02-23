@@ -17,18 +17,21 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "no-console": "warn",
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
         "accessor-pairs": "error",
         "array-bracket-spacing": "error",
         "array-callback-return": "error",
         "arrow-body-style": "error",
-        "arrow-parens": "error",
+        "arrow-parens": "off",
         "arrow-spacing": "error",
         "block-scoped-var": "error",
         "block-spacing": "error",
         "brace-style": "error",
         "callback-return": "error",
         "camelcase": "error",
-        "class-methods-use-this": "error",
+        "class-methods-use-this": "off",
         "comma-spacing": [
             "error",
             {
@@ -71,7 +74,7 @@ module.exports = {
                 "before": true
             }
         ],
-        "line-comment-position": "error",
+        "line-comment-position": "off",
         "linebreak-style": [
             "error",
             "unix"
@@ -85,17 +88,14 @@ module.exports = {
         "max-params": "error",
         "max-statements": "error",
         "max-statements-per-line": "error",
-        "multiline-ternary": [
-            "error",
-            "never"
-        ],
+        "multiline-ternary": "off",
         "new-cap": "error",
-        "new-parens": "error",
+        "new-parens": "off",
         "newline-after-var": [
             "error",
             "always"
         ],
-        "newline-before-return": "error",
+        "newline-before-return": "off",
         "newline-per-chained-call": "error",
         "no-alert": "error",
         "no-array-constructor": "error",
@@ -119,7 +119,7 @@ module.exports = {
         "no-implicit-coercion": "error",
         "no-implicit-globals": "error",
         "no-implied-eval": "error",
-        "no-inline-comments": "error",
+        "no-inline-comments": "off",
         "no-invalid-this": "error",
         "no-iterator": "error",
         "no-label-var": "error",
@@ -200,7 +200,7 @@ module.exports = {
             "error",
             "always"
         ],
-        "object-property-newline": "error",
+        "object-property-newline": "off",
         "object-shorthand": "error",
         "one-var": "error",
         "one-var-declaration-per-line": "error",
@@ -210,7 +210,7 @@ module.exports = {
         "prefer-arrow-callback": "error",
         "prefer-const": "error",
         "prefer-numeric-literals": "error",
-        "prefer-reflect": "error",
+        "prefer-reflect": "off",
         "prefer-rest-params": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
@@ -224,9 +224,9 @@ module.exports = {
         "rest-spread-spacing": "error",
         "semi": "error",
         "semi-spacing": "error",
-        "sort-imports": "warn",
-        "sort-keys": "warn",
-        "sort-vars": "warn",
+        "sort-imports": "off",
+        "sort-keys": "off",
+        "sort-vars": "off",
         "space-before-blocks": "error",
         "space-before-function-paren": "off",
         "space-in-parens": [
